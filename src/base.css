@@ -25,10 +25,24 @@
 --white: #FBFAFF;
 
 --general-font: Helvetica,Arial, sans-serif;
-
 }
 
 body {
   margin: 0;
   background: linear-gradient(0deg, var(--envited-purple-sedondary-extralight), var(--envited-purple-sedondary-extralight)), #FBFAFF;
+}
+
+.boldText{
+  font-weight: 700;
+}
+
+ol,li{
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+h1,h2,p{
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+
 }

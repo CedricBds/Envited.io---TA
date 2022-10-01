@@ -1,13 +1,14 @@
 import illus from '../assets/img/event/eventImg.svg';
-import './Create.css';
+import './Event.css';
 
-function CreatePage() {
+function EventPage() {
   return (
     <main className="envitedCreate">
 
       <section className='createGrid'>
         <div className='createInformations'>
-        <h1>Create an Event ✨</h1>
+        <h1>Birthday Bash</h1>
+        <p>Hosted by <span className='boldText'>Elysia</span></p>
 
         <ol className='eventOptionsList'>
             <li>
@@ -17,8 +18,8 @@ function CreatePage() {
             <ion-icon name="calendar-outline"></ion-icon>
             </div>
                 <div className='eventParams'>
-                    <p className='eventParamLabel'>Event Date</p>
-                    </div> 
+                    <p className='eventParamLabel'>18 August <time>6:00</time>PM</p>
+                    <p>to <span className='boldText'>19 August 1:00PM</span> UTC +10</p> </div> 
                     <ion-icon name="chevron-forward-outline"></ion-icon>
                     </button> 
             </li>
@@ -32,14 +33,12 @@ function CreatePage() {
             <ion-icon name="location-outline"></ion-icon>
                         </div>
                 <div className='eventParams'>
-                    <p className='eventParamLabel'>Address</p>
-                     </div> 
+                    <p className='eventParamLabel'>Street name</p>
+                    <p>Suburb, State, Postcode</p> </div> 
                     <ion-icon name="chevron-forward-outline"></ion-icon>
                     </button> 
                     </li>       
                      </ol>
-
-                     <button className='createButton'>Next 👉</button>
         </div>
 
         <img src={illus}  className="eventImage" alt="eventImage" />
@@ -51,4 +50,4 @@ function CreatePage() {
   );
 }
 
-export default CreatePage;
+export default EventPage;

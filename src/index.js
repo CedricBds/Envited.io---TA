@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './base.css';
-import HomePage from './HomePage/App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+/*Envited pages */
+import HomePage from './HomePage/App';
+import EventPage from './EventPage/Event';
+import CreatePage from './CreatePage/Create';
+
+
+export default function Router() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />}></Route>
+        <Route path='/event' element={<EventPage />}></Route>
+        <Route path='/create' element={<CreatePage />}></Route>
+
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HomePage />
+    <Router />
   </React.StrictMode>
 );
 

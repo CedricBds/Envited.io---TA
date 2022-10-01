@@ -1,5 +1,7 @@
-/*MainPage*/
+@media screen and (min-width: 1194px)  { 
 
+
+/*MainPage*/
 .envitedMain{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -67,6 +69,167 @@ margin: auto;
     cursor: pointer;
     color: var(--white);
     margin: 10% 0 0 auto;
+text-decoration: none;
+text-align: center;
+}
+
+}
+/* Ipad 11 pro*/
+@media screen and (min-width: 834px) and (max-width: 1194px)  { 
+
+
+/*MainPage*/
+.envitedMain{
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: scroll;
+}
+
+/*Left part of grid*/
+
+.envitedExampleLogo{
+    height: 150%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;
+}
+
+
+
+.ctaBrand{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 490px;
+margin: auto;
+grid-row: 1;
 
 }
 
+.ctaBrand h1{
+    font-family: var(--general-font);
+    font-weight: 700;
+    color: #240D57;
+    font-size: 64px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.gradiantText{
+    background: -webkit-linear-gradient(90deg, var(--envited-purple) 24.2%, var(--envited-pink) 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.ctaBrand p{
+    font-size: 24px;
+    margin: 16px 0 0 auto;
+    color: var(--darkGrey);
+    font-family: Helvetica,Arial, sans-serif;
+text-align: center;
+}
+
+
+.createButton{
+    background: linear-gradient(90deg, var(--envited-purple) 3.25%, var(--envited-pink) 100%);
+    width: 320px;
+    padding: 16px;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    margin: 10% auto 0;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+}
+
+}
+
+@media screen and (max-width: 834px)  { 
+
+    
+/*MainPage*/
+.envitedMain{
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: scroll;
+}
+
+/*Left part of grid*/
+
+.envitedExampleLogo{
+    height: 150%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;
+}
+
+
+
+.ctaBrand{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+margin: auto;
+grid-row: 1;
+
+}
+
+.ctaBrand h1{
+    font-family: var(--general-font);
+    font-weight: 700;
+    color: #240D57;
+    font-size: 36px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.gradiantText{
+    background: -webkit-linear-gradient(90deg, var(--envited-purple) 24.2%, var(--envited-pink) 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.ctaBrand p{
+    font-size: 16px;
+    margin: 16px 0 0 auto;
+    color: var(--darkGrey);
+    font-family: Helvetica,Arial, sans-serif;
+text-align: center;
+}
+
+
+.createButton{
+    background: linear-gradient(90deg, var(--envited-purple) 3.25%, var(--envited-pink) 100%);
+    width: 187px;
+    padding: 16px;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    margin: 10% auto 0;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+}
+}
