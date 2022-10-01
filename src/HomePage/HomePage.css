@@ -1,0 +1,72 @@
+/*MainPage*/
+
+.envitedMain{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Left part of grid*/
+
+.envitedExampleLogo{
+    height: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 5%;
+}
+
+
+/*Right part of grid*/
+
+/*Include that to base.css if more one*/
+
+
+.ctaBrand{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 490px;
+margin: auto;
+}
+
+.ctaBrand h1{
+    font-family: var(--general-font);
+    font-weight: 700;
+    color: #240D57;
+    font-size: 64px;
+    text-align: end;
+    width: 370px;
+    margin: 0 0 0 auto;
+}
+.gradiantText{
+    background: -webkit-linear-gradient(90deg, var(--envited-purple) 24.2%, var(--envited-pink) 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.ctaBrand p{
+    font-size: 24px;
+    margin: 16px 0 0 auto;
+    color: var(--darkGrey);
+    font-family: Helvetica,Arial, sans-serif;
+
+}
+
+
+.createButton{
+    background: linear-gradient(90deg, var(--envited-purple) 3.25%, var(--envited-pink) 100%);
+    width: 320px;
+    padding: 16px;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    margin: 10% 0 0 auto;
+
+}
+

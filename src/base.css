@@ -1,0 +1,34 @@
+
+:root{
+  /*Primary palette */
+--envited-purple-dark: #240D57;
+--envited-purple-light: #501FC1;
+--envited-purple: #8456EC;
+--envited-pink: #E87BF8;
+/*secondary plaette*/
+--envited-purple-secondary: #CCB6FF;
+--envited-purple-secondary-light: #EDE5FF;
+--envited-purple-sedondary-extralight: #F6F2FF;
+
+/*Alert colours*/
+--alert-bg-red: #FFD7E0;
+--alert-foreground-red: #E61445;
+--envited-background-green: #D3FFE2;
+--envited-foreground-green: #00805E;
+
+/*Neutrals for general text and background*/
+--darkGrey: #4F4F4F;
+--mediumGrey: #828282;
+--lightGrey: #BDBDBD;
+--extraLightGrey: #E0E0E0;
+--purpleLight: #F2F2F2;
+--white: #FBFAFF;
+
+--general-font: Helvetica,Arial, sans-serif;
+
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(0deg, var(--envited-purple-sedondary-extralight), var(--envited-purple-sedondary-extralight)), #FBFAFF;
+}
